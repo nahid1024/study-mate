@@ -1,9 +1,9 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "study-mate",
-  "version": "0.1.0",
+  "productName": "Study Mate",
+  "version": "1.0.0",
   "identifier": "com.ideashare.study-mate",
-    "build": {
+  "build": {
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
     "devUrl": "http://localhost:5173",
@@ -12,9 +12,12 @@
   "app": {
     "windows": [
       {
-        "title": "study-mate",
-        "width": 800,
-        "height": 600
+        "title": "Study Mate",
+        "resizable": true,
+        "fullscreen": false,
+        "width": 1280,
+        "height": 800,
+        "decorations": true
       }
     ],
     "security": {
